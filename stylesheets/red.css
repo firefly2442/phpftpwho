@@ -1,0 +1,41 @@
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body
+{
+background-color: #ffffff;
+}
+
+table {
+border-style: outset;
+}
+
+p.error {
+color: #FF0000;
+}
+
+tr.box_titles {
+  background-color: #C11B17;
+}
+
+tr.general_row {
+  background-color: #F6358A;
+}
+
+td.authentication {
+  background-color: #FAAFBE;
+}
+
+td.operation {
+  background-color: #FF6699;
+}
+
+a:link    {color:#F660AB}
+a:visited {color:#F660AB}
+a:active  {color:#7D2252}
+a:hover   {color:#7D2252}

@@ -1,0 +1,76 @@
+---------------------------
+phpftpwho
+http://www.rivetcode.com
+---------------------------
+
+-----------
+12/8/10
+Version 1.06
+-----------
+-Added support for changes in Proftpd 1.3.3c, some additional data from ftpwho is discarded as unnecessary (thanks to Bernis for bug-report!)
+-Fixed bug where files other than .css ending could be included as a template
+
+-----------
+10/31/07
+Version 1.05
+-----------
+-Added another possible ftpwho location, /usr/local/bin/ftpwho
+-Fixed bug where strings were not recognized and caused incorrect formating (thanks Andros!)
+-Improved formatting of long strings of information
+
+-----------
+10/18/07
+Version 1.0
+-----------
+-Added CSS tag for error message
+-Added tip about spaces in URL to ReadMe file (thanks Michael!)
+-Added ability to disable display of System Uptime information
+
+-----------
+Version 0.915
+-------------
+-Added another possible ftpwho location, /usr/bin/ftpwho
+
+-----------
+Version 0.91
+-----------
+-Added check to make sure ftpwho is able to run
+
+----------
+Version 0.9
+----------
+-Added CSS style sheet support
+-Improved data display, now uses "ftpwho -v" which has more info
+
+
+-----------
+9/21/05
+Version 0.75
+----------
+-Fixed bug where it would display incorrect results for "inetd" users
+-If running "inetd", uptime: unknown?  Not sure about this, can someone verify?
+-Thanks to "Mig21" over at the www.lugradio.org forums for testing!
+
+
+----------
+9/20/05
+Version 0.7
+----------
+-Checked to make sure "ftpwho" runs otherwise, use more specific command
+-Made the page www.w3.org compliant
+-Code output cleanup, added new lines
+
+
+-----------
+9/19/05
+Version 0.6
+-----------
+-Major bug fixes
+-Added ability to view transfers/operations
+
+
+-----------
+9/18/05
+Version 0.5
+------------
+-Initial Release
