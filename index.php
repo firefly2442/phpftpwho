@@ -285,7 +285,7 @@ if ($handle = opendir('stylesheets')) //open stylesheet directory
 </form>
 
 <br><hr>
-<center><a href="http://www.rivetcode.com">phpftpwho</a>
+<center><a href="https://github.com/firefly2442/phpftpwho/">phpftpwho</a>
 <br>Version: 1.06</center>
 </body>
 </html>
