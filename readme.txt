@@ -2,10 +2,6 @@
 
 License: GPLv2 (see license.txt)
 
-http://www.rivetcode.com
-
-Thank you for downloading this program!
-
 Installation is pretty simple.  Just copy the folder
 to where you want it in your "www" directory in apache.
 
@@ -28,5 +24,3 @@ Make sure the server name does not have any spaces in it
 otherwise this script will not correctly parse the information.
 Thank you Michael for that tip! :)
 
-Support:
-If you need help, please visit the webiste above.
