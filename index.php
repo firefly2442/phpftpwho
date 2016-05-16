@@ -250,7 +250,7 @@ else
 <tr class="box_titles"><td><b>Total Users: <?=$user_count?></b></td></tr>
 </table>
 <br><br>
-<form method=GET ACTION="index.php">
+<form method="get" action="index.php">
 Template:
 <select name="template">
 
