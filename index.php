@@ -24,8 +24,13 @@ else //load another style sheet
 ?>
 
 <title>phpftpwho</title>
+<script type="text/javascript">
+	function timedRefresh(timeoutPeriod) {
+		setTimeout("location.reload(true);",timeoutPeriod);
+	}
+</script>
 </head>
-<body>
+<body onload="timedRefresh(5000);">
 <center>
 <h2>Current FTP Access</h2>
 </center>
